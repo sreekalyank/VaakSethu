@@ -1,0 +1,100 @@
+# =============================================================================
+# VaakSetu — .gitignore
+# =============================================================================
+
+# Environment variables - NEVER commit this
+.env
+.env.local
+.env.production
+.env.staging
+
+# Keep the example file (no real keys inside)
+!.env.example
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+nosetests.xml
+coverage.xml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# =============================================================================
+# IDE & Editors
+# =============================================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# =============================================================================
+# OS Files
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============================================================================
+# Logs & Temp Files
+# =============================================================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# =============================================================================
+# Project Specific
+# =============================================================================
+# Lead lists (may contain personal data)
+leads.csv
+leads.xlsx
+contacts.csv
+
+# Call recordings
+recordings/
+*.mp3
+*.wav
+*.ogg
